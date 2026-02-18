@@ -1,0 +1,32 @@
+{
+  "name": "slidev-theme-anthropic",
+  "version": "0.1.0",
+  "description": "Anthropic-inspired theme for Slidev — warm terracotta covers, muted earth-tone sections, clean editorial body slides",
+  "license": "MIT",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "slidev": ">=0.48.0"
+  },
+  "slidev": {
+    "colorSchema": "light",
+    "defaults": {
+      "fonts": {
+        "sans": "Inter",
+        "serif": "Source Serif 4",
+        "mono": "JetBrains Mono"
+      },
+      "highlighter": "shiki"
+    }
+  },
+  "scripts": {
+    "dev": "slidev example.md",
+    "build": "slidev build example.md"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.48.0"
+  }
+}
