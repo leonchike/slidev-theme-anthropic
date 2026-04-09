@@ -58,6 +58,8 @@
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
   padding: 1.5rem 1.75rem 1.25rem !important;
   position: relative !important;
+  min-height: 100% !important;
+  box-sizing: border-box !important;
 }
 
 /* ---- Page number bottom-right ---- */
